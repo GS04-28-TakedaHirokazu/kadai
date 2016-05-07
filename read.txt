@@ -2,3 +2,5 @@ sampleフォルダの以下のファイルが課題提出用です。
 data_input.php
 data_output.php
 fgets.php
+
+test 追加
