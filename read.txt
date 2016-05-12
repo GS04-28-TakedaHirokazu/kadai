@@ -1,6 +1,9 @@
-sampleフォルダの以下のファイルが課題提出用です。
-data_input.php
-data_output.php
-fgets.php
-
-test 追加
+７回目課題です。
+フォルダ７の以下のファイルで作成しています。
+index.php
+insert.php
+select.php
+select2.php
+login.php
+logout.php
+register.php
