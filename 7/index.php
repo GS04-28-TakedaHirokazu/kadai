@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>かんたん企業診断</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <style>div{padding: 10px;font-size:16px;}</style>
-</head>
+  <style>div{padding: 10px;font-size:16px;}
+  .jumbotron{padding-left:30px;}</style>
 <body>
 
 <!-- Head[Start] -->

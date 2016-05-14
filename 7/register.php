@@ -32,8 +32,19 @@ if(!empty($_POST["username"]) && !empty($_POST["password"])){
   </head>
   <body>
     <h1>新規登録</h1>
-    <?php if($status == "ok"): ?>
-      <p>登録完了</p>
+    <?php if($status == "ok"):?>
+		<SCRIPT language="JavaScript">
+        <!--
+        // 一定時間経過後に指定ページにジャンプする
+        mnt = 3; // 何秒後に移動するか？
+        url = "login.php"; // 移動するアドレス
+        function jumpPage() {
+          location.href = url;
+        }
+        setTimeout("jumpPage()",mnt*1000)
+        //-->
+        </SCRIPT>
+      <p>登録完了しました。3秒後に<a href="login.php">ログインページ</a>へ移動します。</p>
     <?php elseif($status == "failed"): ?>
       <p>エラー：既に存在するユーザ名です。</p>
     <?php else: ?>

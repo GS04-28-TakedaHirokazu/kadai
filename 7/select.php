@@ -37,7 +37,8 @@ if($flag==false){
 <title>診断結果</title>
 <link rel="stylesheet" href="css/range.css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<style>div{padding: 10px;font-size:16px;}</style>
+<style>div{padding: 10px;font-size:16px;}
+strong{font-size:20px;}</style>
 </head>
 <body id="main">
 <!-- Head[Start] -->
@@ -53,19 +54,19 @@ if($flag==false){
 
 <!-- Main[Start] -->
 <div>
-    <div class="container jumbotron">利益率は<?=$view?>%です。
+    <div class="container jumbotron">利益率は<span><?=$view?>%</span>です。
       <p><?php
 	  if ($view <= 10){ //利益率によってコメント変える
-	    echo "一般的な水準です。";
+	    echo "一般的な水準です。<br>（ここに資金調達の広告とか表示）";
 	  }elseif ($view <= 20){
-		echo "高い収益性です！";
+		echo "高い収益性です！<br>（ここに資産運用や節税の広告とか表示）";
 	  }else{
-		echo "素晴らしい会社ですね！！";
+		echo "素晴らしい会社ですね！！<br>（ここにM&A活用の広告とか表示）";
 	  }
 	  ?></p>
     </div>
     <div>
-      <p><a href="login.php">ログインして詳しく見る</a></p>
+      <p><a href="login.php"><strong>ログインして詳しく見る</strong></a></p>
       <p><a href="register.php">新規会員登録をする</a></p>
       <p><a href="logout.php">ログアウトする</a></p>
     </div>
