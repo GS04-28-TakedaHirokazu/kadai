@@ -1,9 +1,7 @@
-７回目課題です。
-フォルダ７の以下のファイルで作成しています。
+8回目課題です。
+フォルダ8の以下のファイルで作成しています。
 index.php
 insert.php
+detail.php
 select.php
-select2.php
-login.php
-logout.php
-register.php
+update.php
